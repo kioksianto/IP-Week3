@@ -5,19 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Delani Studio</title>
     <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
       rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <link href="style.css" rel="stylesheet" />
+    <link
+      href="CSS/Bootstrap-css/bootstrap.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="/CSS/style.css" rel="stylesheet" />
   </head>
   <body>
     <!-- Navigation -->
+    <div class="container"></div>
     <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"> <img src="assets/logo.png" /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -27,33 +29,36 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-link">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-link">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-link">
-              <a class="nav-link" href="#">Services</a>
-            </li>
-            <li class="nav-link">
-              <a class="nav-link" href="#">Portfolio</a>
-            </li>
-            <li class="nav-link">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
+            <ul class="navbar-nav me-auto">
+              <li class="nav-link">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-link">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-link">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-link">
+                <a class="nav-link" href="#">Portfolio</a>
+              </li>
+              <li class="nav-link">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
       </div>
     </nav>
 
-    <!--- Image Slider -->
+    <!--- Home -->
     <div class="image-background">
+      <img src="assets/background/walking.jpg" height="600" width="1200"/>
       <div class="img-text">
-        <h6 class="display-4">WELCOME</h6>
-        <h4 class="display-4">TO DELANI STUDIO</h4>
-        <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+        <h6 class="display-4 welcome">WELCOME</h6>
+        <h4 class="display-4 delani">TO DELANI STUDIO</h4>
+        <p class="summary">
+          AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT
+        </p>
       </div>
       <div class="brand">
         <img src="assets/logo.png" alt="" />
@@ -63,26 +68,89 @@
       </div>
     </div>
 
-    <!--- Jumbotron -->
+    <!--- About us -->
+    <div class="container-fluid padding">
+      <div class="row text-center">
+        <div class="col-12">
+          <h6 class="about">ABOUT US</h6>
+        </div>
+        <div class="col-12 text">
+          When you work with us, you are part of a team of committed
+          collaborators. All aspects of our software development process are
+          intergrated, interactive and agile.
+        </div>
+        <div class="col-12 text">
+          Our approach unifies design,development and product management to
+          create exceptional products.
+        </div>
+        <div class="col-12 text">
+          We start each project by understanding your business goals, the user's
+          needs and the product requirement.
+        </div>
+        <div class="col-12 text">
+          Then we help translate them into effective and elegant solution
+        </div>
+      </div>
+    </div>
+    <!--- Service -->
+    <div>
+      <div class="image-background-1"><img src="assets/background/desktop.jpg" height="400px" width="1200" />
+        <div class="img-text-1">
+          <h6 class="service">SERVICE</h6>
+          <div class="col-12 text-1">
+            Before we sign a contract or write a line of code our team will
+            spend the necessary time needed to understand your product vision.
+          </div>
+          <div class="col-12 text-1-1">
+            The outcome of this scoping session is a proposal or high level
+            statement of work
+          </div>
+          <div class="col-12 text-1-2">
+            Based on your requirement we can provide the complete offering or
+            just the pieces you need.
+          </div>
+        </div>
+      </div>
 
-    <!--- Welcome Section -->
+      <!--- What We Do -->
+      <div class="container-fluid padding">
+      <div row text-center padding>
+        <h6 class="display-4 about">WHAT WE DO</h6>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <img src="assets/service-icons/design_icon.png" alt="">
+            <h6>DESIGN</h6
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-4">
+            <img src="assets/service-icons/dev_icon.png" alt="">
+            <h6>DEVELOPMENT</h6
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <img src="assets/service-icons/product_icon.png" alt="">
+            <h6>PRODUCT MANAGEMENT</h6
+        </div>
 
-    <!--- Three Column Section -->
+      </div>
+      </div>
 
-    <!--- Two Column Section -->
+      <!--- Three Column Section -->
 
-    <!--- Fixed background -->
+      <!--- Two Column Section -->
 
-    <!--- Emoji Section -->
+      <!--- Fixed background -->
 
-    <!--- Meet the team -->
+      <!--- Emoji Section -->
 
-    <!--- Cards -->
+      <!--- Meet the team -->
 
-    <!--- Two Column Section -->
+      <!--- Cards -->
 
-    <!--- Connect -->
+      <!--- Two Column Section -->
 
-    <!--- Footer -->
+      <!--- Connect -->
+
+      <!--- Footer -->
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
   </body>
 </html>
