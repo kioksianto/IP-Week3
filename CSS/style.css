@@ -26,6 +26,7 @@ body {
   position: absolute;
   bottom: 300px;
   right: 500px;
+  left: 0px;
 }
 .delani {
   color: #f5faf8;
@@ -33,6 +34,7 @@ body {
   position: absolute;
   bottom: 200px;
   right: 380px;
+  left: 0px;
 }
 .summary {
   color: #f5faf8;
@@ -40,11 +42,12 @@ body {
   position: absolute;
   bottom: 150px;
   right: 340px;
+  left: 0px;
 }
 .brand {
   position: absolute;
   bottom: 400px;
-  right: 580px;
+  right: 570px;
 }
 .brand-1 {
   position: absolute;
@@ -118,7 +121,53 @@ body {
   font-size: 2.2em;
   font-weight: bold;
   text-align: center;
-  margin-top: 100px;
+  padding: 30px;
+}
+
+#row-1 {
+  display: flex;
+  margin: 15px;
+  margin-left: 10%;
+  margin-right: 10%;
+  flex-wrap: wrap;
+  align-items: center;
+}
+/*---Contact*/
+
+.contact {
+  background: url(../assets/background/rustic.jpg);
+  height: 400px;
+  width: 1200px;
+  margin-left: 40px;
+  margin: 40px;
+  display: cover;
+}
+.heading {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.2em;
+  color: #f5faf8;
+}
+/*---footer*/
+.footer {
+  margin: 80px;
+}
+
+.icons-grid {
+  display: flex;
+  margin-left: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.grid-icons {
+  height: 4em;
+  display: block;
+  padding: 0.3em;
+}
+.copyright {
+  font-weight: bold;
+  text-align: center;
+  padding: 30px;
 }
 
 /*---Media Queries --*/
