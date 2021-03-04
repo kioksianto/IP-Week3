@@ -43,16 +43,16 @@
               <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-link">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-link">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="#service">Services</a>
             </li>
             <li class="nav-link">
-              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-link">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -73,7 +73,11 @@
         <img src="assets/logo.png" alt="" />
       </div>
       <div class="brand-1">
-        <img src="assets/mouse_click.png" alt="" />
+        <li>
+          <a class="nav-link" href="#about">
+            <img src="assets/mouse_click.png" alt=""
+          /></a>
+        </li>
       </div>
     </div>
 
@@ -81,7 +85,7 @@
     <div class="container padding">
       <div class="row text-center">
         <div class="col-12">
-          <h6 class="about">ABOUT US</h6>
+          <h6 class="about" id="about">ABOUT US</h6>
         </div>
         <div class="col-12 text">
           When you work with us, you are part of a team of committed
@@ -106,7 +110,7 @@
       <div class="image-background-1">
         <img src="assets/background/desktop.jpg" height="400px" width="1200" />
         <div class="img-text-1">
-          <h6 class="service">SERVICE</h6>
+          <h6 class="service" id="service">SERVICE</h6>
           <div class="col-12 text-1">
             Before we sign a contract or write a line of code our team will
             spend the necessary time needed to understand your product vision.
@@ -162,10 +166,12 @@
             <h6 style="padding-top: 10px">PRODUCT DESIGN</h6>
             <div class="overlay" id="desc-3">
               <div class="description">
-                Planning and development is iterative.Because we are constantly
-                coding and testing, the product's we build are always ready to
-                go live.This iterative process allows for changes as business
-                requirements evolve.
+                <p>
+                  Planning and development is iterative.Because we are
+                  constantly coding and testing, the product's we build are
+                  always ready to go live.This iterative process allows for
+                  changes as business requirements evolve.
+                </p>
               </div>
             </div>
           </div>
@@ -174,7 +180,7 @@
 
       <!--- portfolio-->
       <div class="container-fluid grid">
-        <h6 class="portfolio">PORTFOLIO</h6>
+        <h6 class="portfolio" id="portfolio">PORTFOLIO</h6>
         <div class="row text-center" id="row-1">
           <div class="col-3">
             <img
