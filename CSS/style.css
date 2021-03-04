@@ -47,7 +47,7 @@ body {
 .brand {
   position: absolute;
   bottom: 400px;
-  right: 570px;
+  right: 540px;
 }
 .brand-1 {
   position: absolute;
@@ -105,7 +105,7 @@ body {
   color: #f5faf8;
   text-align: center;
   bottom: 300px;
-  right: 500px;
+  right: 550px;
   position: absolute;
   font-size: 2.2em;
   font-weight: bold;
@@ -116,6 +116,10 @@ body {
   font-weight: bold;
   text-align: center;
 }
+.col-4 {
+  position: relative;
+}
+
 /*---Portfolio --*/
 .portfolio {
   font-size: 2.2em;
