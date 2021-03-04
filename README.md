@@ -16,17 +16,17 @@ One is able to find out about them, see the services they provide, view their pr
     Step 3 : Open the index.html file to view the application on your preferred web browser or click on the Github link provided on the description box right of this repository.
 
 Known Bugs
-  The alert message after contact submission does indicate the inputted name.
-  The product design overlay description on 'What We Do' section of website is not responsive.
+  * The alert message after contact submission does indicate the inputted name.
+  * The product design overlay description on 'What We Do' section of website is not responsive.
 
 
 
 
 Here are the features in summary:
 
-    Overlay description of the companies services
-    An alert message that lets the user know that the contact information has been received
-    The mouse icon on the home page on click leads to the about page.
+    * Overlay description of the companies services
+    * An alert message that lets the user know that the contact information has been received
+    * The mouse icon on the home page on click leads to the about page.
     
 
 Technologies Used
