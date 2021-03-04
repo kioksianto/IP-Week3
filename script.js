@@ -48,5 +48,5 @@ $(document).ready(function(){
 //Message alert after subscription
 function setName(){
     var name = document.getElementById('mce-NAME');
-    alert (name + ",we have received your message. We appreciate your presence in Delani Studio.");
+    alert (name + ",we have received your message.");
 }
