@@ -5,7 +5,7 @@ A web application that tells more about Delani studio, a company that deals with
 By {Kiok Sianto}
 Description
 
-Delani studio website is a web application that gives an indepth insight into the company. 
+Delani studio website is a web application that gives an indepth insight into the company.
 One is able to find out about them, see the services they provide, view their previous work as well as contact them.
 
     Step 1 : Clone this repository using git clone or downloading a ZIP file of the code.
@@ -15,18 +15,15 @@ One is able to find out about them, see the services they provide, view their pr
     Step 3 : Open the index.html file to view the application on your preferred web browser or click on the Github link provided on the description box right of this repository.
 
 Known Bugs
-  * The alert message after contact submission does not indicate the inputted name.
-  * The product design overlay description on 'What We Do' section of website is not responsive.
 
-
-
+- The alert message after contact submission does not indicate the inputted name.
+- The product design overlay description on 'What We Do' section of website is not responsive.
 
 Here are the features in summary:
 
     * Overlay description of the companies services on clicking service icons on 'What We Do' section.
     * An alert message that lets the user know that the contact information has been received.
     * The mouse icon on the home page on click leads to the about page.
-    
 
 Technologies Used
 
