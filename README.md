@@ -1,5 +1,4 @@
 # IP-Week3
-IP-week2
 
 {Delani Studio}
 A web application that tells more about Delani studio, a company that deals with product design and development, {4/03/2021}
@@ -16,7 +15,7 @@ One is able to find out about them, see the services they provide, view their pr
     Step 3 : Open the index.html file to view the application on your preferred web browser or click on the Github link provided on the description box right of this repository.
 
 Known Bugs
-  * The alert message after contact submission does indicate the inputted name.
+  * The alert message after contact submission does not indicate the inputted name.
   * The product design overlay description on 'What We Do' section of website is not responsive.
 
 
