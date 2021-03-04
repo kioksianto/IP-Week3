@@ -58,7 +58,11 @@ body {
 .brand-1 {
   position: absolute;
   bottom: 50px;
+<<<<<<< HEAD
+  right: 560gitpx;
+=======
   right: 560px;
+>>>>>>> d7893f9c8aeb75635b55ffd90fba885c144c3968
 }
 
 /*---About us --*/
@@ -181,28 +185,3 @@ body {
   text-align: center;
   padding: 30px;
 }
-
-/*---Media Queries --*/
-@media (max-width: 992px) {
-}
-@media (max-width: 768px) {
-}
-@media (max-width: 576px) {
-}
-
-/*
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
-
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-*/
