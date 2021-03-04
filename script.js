@@ -28,7 +28,6 @@ $(document).ready(function(){
         $('#desc-2').hide();
 
     })
-
     // Product Design Description
     $('#desc-image-3').click(function(){
         $('#desc-3').show();
@@ -41,6 +40,7 @@ $(document).ready(function(){
         $('#desc-3').hide();
 
     })
+    
 
 });
 
