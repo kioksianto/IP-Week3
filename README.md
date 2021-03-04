@@ -23,8 +23,8 @@ Known Bugs
 
 Here are the features in summary:
 
-    * Overlay description of the companies services
-    * An alert message that lets the user know that the contact information has been received
+    * Overlay description of the companies services on clicking service icons on 'What We Do' section.
+    * An alert message that lets the user know that the contact information has been received.
     * The mouse icon on the home page on click leads to the about page.
     
 
