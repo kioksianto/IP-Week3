@@ -1,3 +1,9 @@
+#mc_embed_signup {
+  background: transparent;
+  clear: left;
+  font: 14px;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -119,6 +125,11 @@ body {
 .col-4 {
   position: relative;
 }
+#desc-1,
+#desc-2,
+#desc-3 {
+  display: none;
+}
 
 /*---Portfolio --*/
 .portfolio {
@@ -140,7 +151,7 @@ body {
 
 .contact {
   background: url(../assets/background/rustic.jpg);
-  height: 400px;
+
   width: 1200px;
   margin-left: 40px;
   margin: 40px;
