@@ -6,6 +6,7 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 100%;
 }
 body {
   font-family: "Montserrat", sans-serif;
@@ -58,22 +59,15 @@ body {
 .brand-1 {
   position: absolute;
   bottom: 50px;
-<<<<<<< HEAD
-  right: 560gitpx;
-=======
   right: 560px;
->>>>>>> d7893f9c8aeb75635b55ffd90fba885c144c3968
 }
 
 /*---About us --*/
-.text {
-  margin: 10px;
-  padding: 30px;
-}
 .about {
   font-size: 2.2em;
   font-weight: bold;
 }
+
 /*---Service --*/
 .image-background-1 {
   background: no-repeat center center scroll;
@@ -152,7 +146,6 @@ body {
 
 .contact {
   background: url(../assets/background/rustic.jpg);
-
   width: 1200px;
   margin-left: 40px;
   margin: 40px;
@@ -184,4 +177,29 @@ body {
   font-weight: bold;
   text-align: center;
   padding: 30px;
+}
+/*Images*/
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*---Media Queries --*/
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+}
+
+@media (min-device-width: 600px) {
+  img[data-src-600px] {
+    content: attr(data-src-600px, url);
+  }
+}
+
+@media (min-device-width: 800px) {
+  img[data-src-800px] {
+    content: attr(data-src-800px, url);
+  }
 }
