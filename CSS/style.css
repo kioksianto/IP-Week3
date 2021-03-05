@@ -6,6 +6,7 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 100%;
 }
 body {
   font-family: "Montserrat", sans-serif;
@@ -62,14 +63,11 @@ body {
 }
 
 /*---About us --*/
-.text {
-  margin: 10px;
-  padding: 30px;
-}
 .about {
   font-size: 2.2em;
   font-weight: bold;
 }
+
 /*---Service --*/
 .image-background-1 {
   background: no-repeat center center scroll;
@@ -148,7 +146,6 @@ body {
 
 .contact {
   background: url(../assets/background/rustic.jpg);
-
   width: 1200px;
   margin-left: 40px;
   margin: 40px;
@@ -181,6 +178,11 @@ body {
   text-align: center;
   padding: 30px;
 }
+/*Images*/
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
@@ -190,6 +192,33 @@ body {
 @media (max-width: 576px) {
 }
 
+@media (min-device-width: 600px) {
+  img[data-src-600px] {
+    content: attr(data-src-600px, url);
+  }
+}
+
+@media (min-device-width: 800px) {
+  img[data-src-800px] {
+    content: attr(data-src-800px, url);
+  }
+}
+
+@media (min-width: 640px) {
+  body {
+    font-size: 1rem;
+  }
+}
+@media (min-width: 960px) {
+  body {
+    font-size: 1.2rem;
+  }
+}
+@media (min-width: 1100px) {
+  body {
+    font-size: 1.5rem;
+  }
+}
 /*
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
